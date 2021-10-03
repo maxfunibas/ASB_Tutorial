@@ -4,10 +4,10 @@
 %
 
 %today's date
-date_text = date;
-year = date_text(end-3:end);
+%date_text = date; %removed year
+%year = date_text(end-3:end); %removed year
 %plot text
-text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold')
+text(2.5,-3.5, 'Reviewer 2 is the best' ,'Color' ,'g' , 'FontSize', 24, 'FontWeight', 'bold') % removed year and insert the "Reviewer 2 is teh best" in color green.
 xlim([-2,12])
 ylim([-8,10])
 
