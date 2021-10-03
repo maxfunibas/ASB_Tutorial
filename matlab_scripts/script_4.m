@@ -6,7 +6,7 @@
 %read in data
 data = csvread('data/ASB.csv');
 %plot data
-plot(data(:,1), data(:,2), 'k-', 'LineWidth',7);
+plot(data(:,1), data(:,2), 'r-', 'LineWidth',7); % Change color from black (k) to red (r)
 
 %% SOLUTION: Breakout 1
 
